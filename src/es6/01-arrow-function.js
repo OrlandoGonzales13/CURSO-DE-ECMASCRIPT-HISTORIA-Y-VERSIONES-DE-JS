@@ -9,4 +9,5 @@ const square = (num) => {
     return num*num;
 }
 
+//return implicito, si son mas de dos lineas si se necesita return y {}
 const square = num => num*num;

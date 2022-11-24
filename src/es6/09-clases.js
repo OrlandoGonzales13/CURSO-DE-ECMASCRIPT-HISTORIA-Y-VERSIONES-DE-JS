@@ -7,7 +7,7 @@ class User {};
 class user {
     // metodos
     greeting() {
-        return "hello";
+        return `Hello`;
     }
 };  
 
@@ -21,7 +21,7 @@ console.log(bebeloper.greeting());
 //----constructor----
 class user{
     //constructor  
-    funcionConstructora(){
+    constructor(){
         console.log('Nuevo Usuario');
     }
     greeting(){
@@ -31,7 +31,7 @@ class user{
 
 const adriano = new user();
 
-// this
+// -----------this - hace referencia al padre
 class user {
     constructor(name) {
         this.name = name;
@@ -47,7 +47,7 @@ class user {
 const ana = new user("Ana");
 console.log(ana.greeting());
 
-// setters getters
+//---------setters getters
 
 class user {
     //constructor

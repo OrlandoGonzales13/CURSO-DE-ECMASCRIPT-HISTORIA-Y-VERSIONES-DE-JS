@@ -1,6 +1,6 @@
 function* iterate(array)  {
     for (let value of array) {
-        yield value;
+        yield value; //palabra reservada para devolver los valores
     }
 }
 

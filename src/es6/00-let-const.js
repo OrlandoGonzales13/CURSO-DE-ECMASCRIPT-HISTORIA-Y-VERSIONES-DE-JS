@@ -17,9 +17,9 @@ console.log(animal);
 
 const fruits = () => {
     if(true){
-        var fruit1 = 'Apple'; //function scope
-        let fruit2 = 'Kiwi'; // block scope
-        const fruit3 = 'Banana'; // block scope
+        var fruit1 = 'Apple'; //function scope =>dentro de la funcion podemos acceder
+        let fruit2 = 'Kiwi'; // block scope => solo se puede acceder donde es declarado (en este caso el if)
+        const fruit3 = 'Banana'; // block scope => solo se puede acceder donde es declarado (en este caso el if)
     }
     console.log(fruit1);
     console.log(fruit2); //error: variable let funciona en block por lo cual no esta definida fuera de las llaves

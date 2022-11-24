@@ -2,10 +2,10 @@
 
 function newUser(user, age, country, uID){
     return{
-        user: user,
-        age,
+        user,
+        age, //tambien con el nombre del parametro solo
         country,
-        id: uID
+        id: uID //estructura normal 
     }
 }
 

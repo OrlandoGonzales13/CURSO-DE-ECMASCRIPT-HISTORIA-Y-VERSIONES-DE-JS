@@ -1,14 +1,14 @@
 let hello = 'Hello';
-let wolrd = 'World';
-let epicPhrase = hello + ' ' + wolrd + '!';
+let world = 'World';
+let epicPhrase = hello + ' ' + world + '!';
 //console.log(epicPhrase);
 
-//Template Literals 
+//Template Literals  `` 
 let epicPhrase2 = `${hello} ${wolrd}!`;
 console.log(epicPhrase2);
 
 
-//Multi-line strings
+//Multi-line strings 
 let lorem = 'esto es un string \n' + 'eso es otra linea';
 console.log(lorem);
 
